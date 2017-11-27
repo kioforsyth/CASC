@@ -87,6 +87,10 @@
             }
             h4{
                 font-family:"Lucida Console", Monaco, monospace;
+                color: white;
+                background-color: black;
+                padding: 150;
+                font-size: 100%;
   
             }
             .p1{
@@ -100,6 +104,9 @@
             }
             .p4{
                 display: none;
+            }
+            .fade2{
+                opacity:100;
             }
         </style>
     </head>
@@ -131,12 +138,12 @@
             <h3 class= "English">In English</h3>
             <br>
             <blockquote class= "block1">
-            <h4 class="what-we-do"><b>WHAT WE DO = WHY WE DO IT</b></h4>
+            <div class="jumbotron">
+            <h4 class="fade"><b>WHAT WE DO = WHY WE DO IT</b></h4>
             <br>
             <p>1.</p>
             <br>
             <ol>
-            <div class="jumbotron">
             PCASC raises resources to send to social movements in the Americas.
             <br>
             <br>
@@ -147,10 +154,10 @@
             </blockquote>
             </p>
             <br>
-            <p class="p1">
+            <span class="p1">
             We have access to resources in part because of the exploitation of Latin American peoples and environment; we should use our access to provide resources whenever we can.
        </div>
-                </p>
+            </span>
             <blockquote class= "block1">
             <div class="jumbotron">
             <br>
@@ -167,9 +174,9 @@
             </blockquote>
             </p>
             <br>
-            <p class="p2">
+            <span class="p2">
             We believe that the movement must be built from the ground up and that there is strength in collective power. We believe that anti-oppression is critical to systemic change. We believe in developing and strengthening the political analysis and organizing skills of all PCASC members.
-            </p>
+            </span>
                 </ol>
             <br>
             <br>
@@ -235,9 +242,9 @@
                  $( ".block2" ).fadeToggle( "slow" );
                  });
                  
-                $( ".equals1" ).click(function() {
-                 $( ".p1" ).show( "fast" );
-                 });
+                $( window ).scroll(function() {
+                $( ".span" ).css( "display");
+                });
   
                  $( ".equals2" ).click(function() {
                  $( ".p2" ).show( "fast" );
@@ -274,6 +281,20 @@
   } fade(true); //fade elements on page-load
   $(window).scroll(function(){fade(false);}); //fade elements on scroll
 });
+                </script>
+          <script> $(window).on("load",function() {
+  function fade(pageLoad) {
+      var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+    var min = 0.3;
+    var max = 0.7;
+    var threshold = 0.01;
+    
+    $(".fade2").each(function() {
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")=min+threshold || pageLoad) {$(this).fadeTo(10000,==max);}
+
+
                 </script>
     </body>
 <footer>
