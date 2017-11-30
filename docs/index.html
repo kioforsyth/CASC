@@ -21,9 +21,6 @@
             <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 
-
-
-
         <style>
            nav{
                 font-family: 'Roboto Condensed', Ubuntu, Arial, Helvetica, sans-serif;
@@ -35,19 +32,16 @@
                 font-family: 
                     'Bitter','Merriweather', serif;
             }
-
             .underline{
                 padding: 1px 20px 5px;
                 display: inline-block;
                 }
-
              .underline{
 	           position: relative;
 	           text-decoration: none;
 	           font-size: 22px;
                 display:inline-block;
                 }
-
             .underline:before {
 	           content: "";
                 position: absolute;
@@ -57,18 +51,15 @@
                 left: 0;
                 background-color: black;
               visibility: hidden;
-
               -webkit-transition: all 0.3s ease-in-out 0s;
               -moz-transition: all 0.3s ease-in-out 0s;
               -o-transition: all 0.3s ease-in-out 0s;
               transition: all 0.3s ease-in-out 0s;
-
               -webkit-transform: scaleX(0);
               -moz-transform: scaleX(0);
               -o-transform: scaleX(0);
               transform: scaleX(0);
                 }
-
             .underline:hover:before {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -88,23 +79,15 @@
             }
             h3:hover{
                 text-decoration: underline;
-
             }
             
-            blockquote{
+            .block1, .block2{
                 display: none;
                 text-align: center;
                 font-family: 'Slabo 27px', serif;
-
+                font-size: 27px;
             }
-            .container{
-                max-width: 400px;
-                }
-            }
-            p{
-                color:dimgrey;
-            }
-            h5{
+            p, h5{
                 color:dimgrey;
             }
             .jumbotron{
@@ -153,17 +136,17 @@
                 </nav>
                 <img src="logo.png">
                 </div>
-            <h1 class="PCASC"> Portland Central American Solidarity Committee</h1>
+            <h1 class="PCASC"> Portland Central <br> American Solidarity <br>Committee</h1>
             <br>
         </header>
         
    <body>
+            
         <div class="text-center">
             <h2 class= "fade"><em>Who we are.</em></h2>
-
-            <h3 class= "English">In English</h3>
-            <blockquote class= "block1">
             <div class="jumbotron">
+            <h3 class= "English">In English</h3>
+            <div class= "block1">
             <h4 class="fade"><b>WHAT WE DO & WHY WE DO IT</b></h4>
             <br>
             1.
@@ -256,8 +239,8 @@
             <b>Creemos que las relaciones y las luchas comunes son la base fundamental de la solidaridad.</b>
             <br>
             <br>
-            </blockquote>
-            </div>
+                </div>
+                </div>
             </div>
             <div class="clearfix"></div>
             <div id="div1">
@@ -272,11 +255,6 @@
                  $( ".Espanol" ).click(function() {
                  $( ".block2" ).fadeToggle( "slow" );
                  });
-                 
-                $("p1").hover(
-                function () {
-                    $(this).append($("<span> HOVERING!!!!! </span>"));
-                });
 
                 $(window).on("load",function() {
                 function fade(pageLoad) {
@@ -284,10 +262,8 @@
                 var min = 1;
                 var max = 1;
                 var threshold = 0.01;
-
                 $(".fade").each(function() {
                   /* Check the location of each desired element */
-
                   /* If the element is completely within bounds of the window, fade it in */
                   if (objectBottom = windowBottom) { //object comes into view (scrolling down)
                     if ($(this).css("opacity")<=min+threshold || pageLoad) {$(this).fadeTo(500,max);}
@@ -305,9 +281,7 @@
                 var max = 1;
                 var threshold = 1;
                     
-
 });
-
     </body>
 <footer>
  
