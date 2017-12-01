@@ -23,7 +23,15 @@
 
         <style>
             a{ 
-            color: black;
+                color: white;
+                text-decoration: none;          
+                background-color: black;
+            }
+            a:hover 
+            {
+                color:#00A0C6; 
+                text-decoration:none; 
+                cursor:pointer;  
             }
             nav{
                 font-family: 'Roboto Condensed', Ubuntu, Arial, Helvetica, sans-serif;
@@ -36,7 +44,7 @@
                     'Bitter','Merriweather', serif;
             }
             .underline{
-                padding: 1px 20px 5px;
+                padding: 1px 10px 5px;
                 display: inline-block;
                 }
              .underline{
@@ -51,7 +59,7 @@
                 height: 2px;
                 bottom: 0;
                 left: 0;
-                background-color: whitesmoke;
+                background-color: lightcyan;
               visibility: hidden;
               -webkit-transition: all 0.3s ease-in-out 0s;
               -moz-transition: all 0.3s ease-in-out 0s;
@@ -71,15 +79,22 @@
                 }
             
             h2{
-                background-color: white;
+                background-color: black;
                 margin-top:0;
                 padding-left, padding-right: 75px;
-                color: black;
+                color: whitesmoke;
             }
-            .english, .espanol{
+            .english{
                 font-family: 'Abril Fatface', cursive;
                 font-size: 60px;
-                color: black;
+                color: white;
+                background-color: black;
+            }
+            .espanol{
+                font-family: 'Abril Fatface', cursive;
+                font-size: 100px;
+                background-color: black;
+                color:white;
                 margin: auto;
             }
             h3:hover{
@@ -90,7 +105,6 @@
                 display: none;
                 text-align: center;
                 font-family: 'Slabo 27px', serif;
-                font-size: 27px;
             }
             p, h5{
                 color:dimgrey;
@@ -100,19 +114,13 @@
                 margin: auto;
                 max-width: 600px;
             }
-            .page-header{
-                margin-bottom:0;
-            }
             fade{
                 opacity: 1;
             }
-            header{
-                background-color: none;
-            }
             .english:hover{
-                color: deepskyblue;
+                color: blue;
             }
-            .page-header{
+            header{
                 margin-top: 0;
             }
             ol{
@@ -123,7 +131,6 @@
                 font-family:"Lucida Console", Monaco, monospace;
                 color: white;
                 background-color: grey;
-                padding: 150;
                 font-size: 100%;
   
             }
@@ -136,9 +143,11 @@
             
             <div class="text-center">
             <div class="fade">
+            <br>
+            <br>
              <div class="english">
             <br>
-		     <h1 class="underline"> <a style="text-decoration:none;" href="page2eng">In English</a></h1>
+		     <h1 class="underline"> <a style="text-decoration:none; color: none;" href="page2eng">In English</a></h1>
                 </div>
                  <div class="espanol">
 		      <h1 class="underline"><a style="text-decoration:none;" href="page2espanol">En Espa&#241;ol</a></h1>
@@ -154,7 +163,10 @@
             <div class="text-center">
             <h1 class="PCASC"> Portland Central <br> American Solidarity <br>Committee</h1>
             <br>
-                    </div>
+            <br>
+            <br>
+            <hr>
+            </div>
             
         </header
         
