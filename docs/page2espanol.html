@@ -1,321 +1,339 @@
 <html>
      <head>
-     <title>PCASC: Portland Central American Solidarity Committee</title>
-         
-            <!-- Latest compiled and minified CSS -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>PCASC: Portland Central American Solidarity Committee</title>
 
-            <!-- Optional theme -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-            <!-- Latest compiled and minified JavaScript -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-            
-             <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
-	     
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-         
-            <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
 
-	     
-        <style>
-	     @media screen and (max-width: 1024px) {
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+        @media screen and (max-width: 1024px) {
             .container {
                 width: 90%;
             }
-                 h4{
-                     padding: -2px;
-                     margin-left: -100px;
-                     margin-right: -120px;
-                 }
-                 p{
-	            padding: 20px;
-                     text-align: left;
-                 }
-		.pcontainer{
-                     padding: 20px;
-                 }
+            h4 {
+                padding: -2px;
+                margin-left: -100px;
+                margin-right: -120px;
             }
-           nav{
-                font-family: 'Roboto Condensed', Ubuntu, Arial, Helvetica, sans-serif;
+            p {
+                padding: 20px;
+                text-align: left;
             }
-            p{
-                font-family: 'Slabo 27px', serif;
+            .pcontainer {
+                padding: 20px;
             }
-            .PCASC{
-                font-family: 
-                    'Bitter','Merriweather', serif;
-            }
-            .underline{
-                padding: 1px 20px 5px;
-                display: inline-block;
-                }
-             .underline{
-	           position: relative;
-	           text-decoration: none;
-	           font-size: 22px;
-                display:inline-block;
-                }
-            .underline:before {
-	           content: "";
-                position: absolute;
-                width: 100%;
-                height: 2px;
-                bottom: 0;
-                left: 0;
-                background-color: black;
-              visibility: hidden;
-              -webkit-transition: all 0.3s ease-in-out 0s;
-              -moz-transition: all 0.3s ease-in-out 0s;
-              -o-transition: all 0.3s ease-in-out 0s;
-              transition: all 0.3s ease-in-out 0s;
-              -webkit-transform: scaleX(0);
-              -moz-transform: scaleX(0);
-              -o-transform: scaleX(0);
-              transform: scaleX(0);
-                }
-            .underline:hover:before {
-              visibility: visible;
-              -webkit-transform: scaleX(1);
-              -moz-transform: scaleX(1);
-              -o-transform: scaleX(1);
-              transform: scaleX(1);
-                }
-            
-            h2{
-                background-color: black;
-                margin-top:0;
-                padding: 160px;
-                color: whitesmoke;
-            }
-            h3{
-                font-family: 'Abril Fatface', cursive;
-            }
-            h3:hover{
-                text-decoration: underline;
-            }
-            
-            .block1, .block2{
-                text-align: center;
-                font-family: 'Slabo 27px', serif;
-                font-size: 27px;
-            }
-            p, h5{
-                color:dimgrey;
-            }
-            .jumbotron{
-                background: white;
-                margin: auto;
-                max-width: 600px;
-            }
-            .page-header{
-                margin-bottom:0;
-            }
-            fade{
-                opacity: 1;
-            }
-            header{
-                background-color: none;
-            }
-            .page-header{
-                margin-top: 0;
-            }
-            ol{
-                text-align: center;
-                font-family:"Lucida Console", Monaco, monospace;
-            }
-            h4{
-                font-family:"Lucida Console", Monaco, monospace;
-                color: white;
-                background-color: black;
-                padding: 150;
-                font-size: 100%;
-  
-            }
-            .fade2{
-                opacity:100;
-            }
-        </style>
-    </head>
-        <header>
-            <div class="text-center">
-                <div class="fade">
+        }
+
+        nav {
+            font-family: 'Roboto Condensed', Ubuntu, Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            font-family: 'Slabo 27px', serif;
+        }
+
+        .PCASC {
+            font-family: 'Bitter', 'Merriweather', serif;
+        }
+
+        .underline {
+            padding: 1px 20px 5px;
+            display: inline-block;
+        }
+
+        .underline {
+            position: relative;
+            text-decoration: none;
+            font-size: 22px;
+            display: inline-block;
+        }
+
+        .underline:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: black;
+            visibility: hidden;
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -moz-transition: all 0.3s ease-in-out 0s;
+            -o-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+            -webkit-transform: scaleX(0);
+            -moz-transform: scaleX(0);
+            -o-transform: scaleX(0);
+            transform: scaleX(0);
+        }
+
+        .underline:hover:before {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            transform: scaleX(1);
+        }
+
+        h2 {
+            background-color: black;
+            margin-top: 0;
+            padding: 160px;
+            color: whitesmoke;
+        }
+
+        h3 {
+            font-family: 'Abril Fatface', cursive;
+        }
+
+        h3:hover {
+            text-decoration: underline;
+        }
+
+        .block1,
+        .block2 {
+            text-align: center;
+            font-family: 'Slabo 27px', serif;
+            font-size: 27px;
+        }
+
+        p,
+        h5 {
+            color: dimgrey;
+        }
+
+        .jumbotron {
+            background: white;
+            margin: auto;
+            max-width: 600px;
+        }
+
+        .page-header {
+            margin-bottom: 0;
+        }
+
+        fade {
+            opacity: 1;
+        }
+
+        header {
+            background-color: none;
+        }
+
+        .page-header {
+            margin-top: 0;
+        }
+
+        ol {
+            text-align: center;
+            font-family: "Lucida Console", Monaco, monospace;
+        }
+
+        h4 {
+            font-family: "Lucida Console", Monaco, monospace;
+            color: white;
+            background-color: black;
+            padding: 150;
+            font-size: 100%;
+
+        }
+
+        .fade2 {
+            opacity: 100;
+        }
+    </style>
+</head>
+<header>
+    <div class="text-center">
+        <div class="fade">
             <nav>
-                   <img src="logo.png" height="30%">
+                <img src="logo.png" height="30%">
                 <br>
-                  <a href="page2espanol"><h1 class="underline">About us</h1></a>
-                <a href="get_involved_esp"><h1 class="underline">Get Involved</h1></a>
-                <a href="contact_esp"><h1 class="underline">Contact</h1></a>
-                </nav>
-                </div>
-                <br>
-        </header>
-        
-   <body>
- <div class="text-center">
-            <h4 style="font-size: 25px;", class="fade"><b>NUESTRA MISIÓN</b></h4>
-           <div class= "block1">
+                <a href="page2espanol.html">
+                    <h1 class="underline">About us</h1>
+                </a>
+                <a href="get_involved_esp.html">
+                    <h1 class="underline">Get Involved</h1>
+                </a>
+                <a href="contact_esp.html">
+                    <h1 class="underline">Contact</h1>
+                </a>
+            </nav>
+        </div>
+        <br>
+</header>
+
+<body>
+    <div class="text-center">
+        <h4 style="font-size: 25px;" , class="fade"><b>NUESTRA MISIÓN</b></h4>
+        <div class="block1">
             <div class="jumbotron">
-	    <div class="container pcontainer">
-       
-   <p>PCASC educates and mobilizes community members, workers and students around struggles for human rights and social justice throughout the Americas.</p> 
-               <br>
-                <br>
-          
-       <h4 style="font-size: 25px;", class="fade"><b>NUESTRA HISTORIA</b></h4>
-                <div class= "block1">
-            <div class="jumbotron">
-            
-<p>El Comité de Solidaridad con el Pueblo de Centroamérica (PCASC, por sus siglas en inglés) fue fundado en 1979 por un grupo de activistas preocupados por la política militar y económica de los Estados Unidos hacia Centroamérica. En 1982, voluntarios de PCASC organizaron y ayudaron a aprobar exitosamente un proyecto de ley que exigió al gobierno federal a terminar con su apoyo militar al gobierno de El Salvador, involucrando y educando a cientos de miles de votantes.
-            <br>
-            <br>
-En 1987, Ben Linder, un residente de Portland, fue asesinado por Contras en Nicaragua, y activistas incluyendo a los miembros de familia de Ben se organizaron a nivel nacional para llamar la atención a la muerte de Ben y la política exterior de los EEUU hacia Nicaragua.
-            <br>
-            <br>
-En los años 90, el trabajo de PCASC ha cambiado su enfoque para poder trabajar en terminar con la globalización corporativa. PCASC organizó más de 400 miembros de sindicatos para participar en las manifestaciones de la WTO en Seattle en 1999.
-            <br>
-            <br>
-En 2005, PCASC coordinó una campaña comunitaria, involucrando a comunidades de fe, organizaciones estudiantiles, y sindicatos para evitar que se aprobara el Tratado de Libre Comercio con Centroamérica (CAFTA, por sus siglas en inglés). La campaña tuvo éxito en presionar al Representante Earl Blumenauer (un creyente declarado en los tratados de libre comercio) para que votara no. En 2006, PCASC ayudó a organizar una marcha histórica a favor de los derechos migratorios en el Día de los Trabajadores, con más de 12,000 participantes, la mayoría de ellos latinos.
-</p>
+                <div class="container pcontainer">
+
+                    <p>PCASC educates and mobilizes community members, workers and students around struggles for human rights and social justice throughout the Americas.</p>
+                    <br>
+                    <br>
+
+                    <h4 style="font-size: 25px;" , class="fade"><b>NUESTRA HISTORIA</b></h4>
+                    <div class="block1">
+                        <div class="jumbotron">
+
+                            <p>El Comité de Solidaridad con el Pueblo de Centroamérica (PCASC, por sus siglas en inglés) fue fundado en 1979 por un grupo de activistas preocupados por la política militar y económica de los Estados Unidos hacia Centroamérica. En 1982, voluntarios de PCASC organizaron y ayudaron a aprobar exitosamente un proyecto de ley que exigió al gobierno federal a terminar con su apoyo militar al gobierno de El Salvador, involucrando y educando a cientos de miles de votantes.
+                                <br>
+                                <br> En 1987, Ben Linder, un residente de Portland, fue asesinado por Contras en Nicaragua, y activistas incluyendo a los miembros de familia de Ben se organizaron a nivel nacional para llamar la atención a la muerte de Ben y la política exterior de los EEUU hacia Nicaragua.
+                                <br>
+                                <br> En los años 90, el trabajo de PCASC ha cambiado su enfoque para poder trabajar en terminar con la globalización corporativa. PCASC organizó más de 400 miembros de sindicatos para participar en las manifestaciones de la WTO en Seattle en 1999.
+                                <br>
+                                <br> En 2005, PCASC coordinó una campaña comunitaria, involucrando a comunidades de fe, organizaciones estudiantiles, y sindicatos para evitar que se aprobara el Tratado de Libre Comercio con Centroamérica (CAFTA, por sus siglas en inglés). La campaña tuvo éxito en presionar al Representante Earl Blumenauer (un creyente declarado en los tratados de libre comercio) para que votara no. En 2006, PCASC ayudó a organizar una marcha histórica a favor de los derechos migratorios en el Día de los Trabajadores, con más de 12,000 participantes, la mayoría de ellos latinos.
+                            </p>
+                        </div>
                     </div>
-            </div>
-            
-                        <div class= "block1">
-            <div class="jumbotron">
-	    <div class="container pcontainer">
-         
-            <div class="text-center">
-            <h4 style="font-size: 25px;", class="fade"><b>QUE HACEMOS 
+
+                    <div class="block1">
+                        <div class="jumbotron">
+                            <div class="container pcontainer">
+
+                                <div class="text-center">
+                                    <h4 style="font-size: 25px;" , class="fade"><b>QUE HACEMOS 
                 <br>
                 & POR QUÉ LO HACEMOS</b></h4>
-            <br>
-            <div class= "block1">
-            
-            
-            <p>
-            1.
-            <br>
-            <br>
-                PCASC gestiona el envío de recursos a los movimientos sociales de las Américas            
-            <br>
-            <br>
-            <b>Tenemos el acceso a recursos en parte a la explotación de los pueblos Latinoamericanos y del medio ambiente; debemos usar nuestro acceso a aportar recursos siempre que nos sea posible.</b>
-            <br>
-            <br>
-            <br>
-            <br>
-            2.
-            <br>
-            <br>
-                PCASC es una organización a cargo de miembros-voluntarios con el fin de desarrollar organizadores y líderes de movimientos a través de un sistema descentralizado, con el apoyo de organizaciones compañeras. 
-            <br>
-            <br>
-                <b>Creemos que el movimiento debeser construido desde cero, y en el poder colectivo. Creemos que lalucha contra la opresión es fundamental para el cambio sistémico.Creemos en el desarrollo y fortalecimiento del análisis político y las habilidades de organización de todos los miembros de PCASC.</b>
-            <br>
-            <br>
-            <br>
-            3.
-            <br>
-            <br>
-                PCASC ofrece análisis y soluciones dirigidas a las causasprimordiales de los problemas y exige un cambio sistémico, mientras avoca la construcción del poder transformador hacia un mundo más justo.      
-            <br>
-            <br>
-                <b>Creemos que el capitalismo y la opresión sonlas causas primordiales de la injusticia.</b>
-            <br>
-            <br>
-            <br>
-            4.
-            <br>
-            <br>
-           PCASC conecta directamente a miembros comunitarios, estudiantes y trabajadores con sus homólogos en las Américas.
-            <br>
-            <br>
-            <b>Creemos que las relaciones y las luchas comunes son la base fundamental de la solidaridad.</b>
-         <br>
-            <br>
-            <br>
-            5. <br>
-            <br>PCASC provée una perspectiva internacional y solidaria a la comunidad organizativa de Portland. 
-                     <br>
-            <br>
-                <b>Creemos que la opresión en las Américas afecta a nuestras comunidades y que tenemos queestar en alianza con otros movimientos populares con el fin deconstruir un amplio movimiento solidario necesario para VENCER.</b>
-                <br>
-            <br>
-            <br>
-                6.
-                <br>
-            <br>PCASC educa a nuestra comunidad sobre las luchas por la justicia en las Américas, elevando la voz y la organización de las personas en la línea frontal, creando un espacio para soluciones alternativas.
-                <br>
-            <br><b>Creemos que los movimientos populares hablan porsí mismos. Nuestra función es amplificar, en los EE.UU., las voces,mientras cambiamos la conciencia local. Los movimientos populares de las Américas ofrecen soluciones participativas basadas en la comunidad de las cuales podemos aprender ycompartir.</b>
-                <br>
-            <br>
-            <br>
-                7. 
-                <br>
-            <br>PCASC se opone al imperialismo de EE.UU. y empresarial enlas Américas.
-            <br>
-            <br><b>Las empresas transnacionales y el gobierno de los EE.UU. imponen políticas que explotan y oprimen a las comunidades de todo el continente americano. Es nuestraresponsabilidad de luchar contra estas políticas desde dentro.</b>
- 
-            </p>
-                 <br>
-        <br>
-        <i class="fa fa-facebook-square" style="font-size: 50px; padding-right: 50px" aria-hidden="true"></i>
-        <i class="fa fa-twitter"  style="font-size: 50px" aria-hidden="true"></i>
-		</div>
-                </div>
-                </div>
-            </div>
-            </div>
-            <div class="clearfix"></div>
-            <div id="div1">
-                               <br>
-       
+                                    <br>
+                                    <div class="block1">
 
-    
-             <script>
-                 $( ".English" ).click(function() {
-                 $( ".block1" ).fadeToggle( "slow" );
-                 });
-                 
-                 $( ".Espanol" ).click(function() {
-                 $( ".block2" ).fadeToggle( "slow" );
-                 });
-                $(window).on("load",function() {
-                function fade(pageLoad) {
-                var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-                var min = 1;
-                var max = 1;
-                var threshold = 0.01;
-                $(".fade").each(function() {
-                  /* Check the location of each desired element */
-                  /* If the element is completely within bounds of the window, fade it in */
-                  if (objectBottom = windowBottom) { //object comes into view (scrolling down)
-                    if ($(this).css("opacity")<=min+threshold || pageLoad) {$(this).fadeTo(500,max);}
-                            } else { //object goes out of view (scrolling up)
-                            if ($(this).css("opacity")>=max-threshold || pageLoad) {$(this).fadeTo(1,min);}
-                            }
+
+                                        <p>
+                                            1.
+                                            <br>
+                                            <br> PCASC gestiona el envío de recursos a los movimientos sociales de las Américas
+                                            <br>
+                                            <br>
+                                            <b>Tenemos el acceso a recursos en parte a la explotación de los pueblos Latinoamericanos y del medio ambiente; debemos usar nuestro acceso a aportar recursos siempre que nos sea posible.</b>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br> 2.
+                                            <br>
+                                            <br> PCASC es una organización a cargo de miembros-voluntarios con el fin de desarrollar organizadores y líderes de movimientos a través de un sistema descentralizado, con el apoyo de organizaciones compañeras.
+                                            <br>
+                                            <br>
+                                            <b>Creemos que el movimiento debeser construido desde cero, y en el poder colectivo. Creemos que lalucha contra la opresión es fundamental para el cambio sistémico.Creemos en el desarrollo y fortalecimiento del análisis político y las habilidades de organización de todos los miembros de PCASC.</b>
+                                            <br>
+                                            <br>
+                                            <br> 3.
+                                            <br>
+                                            <br> PCASC ofrece análisis y soluciones dirigidas a las causasprimordiales de los problemas y exige un cambio sistémico, mientras avoca la construcción del poder transformador hacia un mundo más justo.
+                                            <br>
+                                            <br>
+                                            <b>Creemos que el capitalismo y la opresión sonlas causas primordiales de la injusticia.</b>
+                                            <br>
+                                            <br>
+                                            <br> 4.
+                                            <br>
+                                            <br> PCASC conecta directamente a miembros comunitarios, estudiantes y trabajadores con sus homólogos en las Américas.
+                                            <br>
+                                            <br>
+                                            <b>Creemos que las relaciones y las luchas comunes son la base fundamental de la solidaridad.</b>
+                                            <br>
+                                            <br>
+                                            <br> 5. <br>
+                                            <br>PCASC provée una perspectiva internacional y solidaria a la comunidad organizativa de Portland.
+                                            <br>
+                                            <br>
+                                            <b>Creemos que la opresión en las Américas afecta a nuestras comunidades y que tenemos queestar en alianza con otros movimientos populares con el fin deconstruir un amplio movimiento solidario necesario para VENCER.</b>
+                                            <br>
+                                            <br>
+                                            <br> 6.
+                                            <br>
+                                            <br>PCASC educa a nuestra comunidad sobre las luchas por la justicia en las Américas, elevando la voz y la organización de las personas en la línea frontal, creando un espacio para soluciones alternativas.
+                                            <br>
+                                            <br><b>Creemos que los movimientos populares hablan porsí mismos. Nuestra función es amplificar, en los EE.UU., las voces,mientras cambiamos la conciencia local. Los movimientos populares de las Américas ofrecen soluciones participativas basadas en la comunidad de las cuales podemos aprender ycompartir.</b>
+                                            <br>
+                                            <br>
+                                            <br> 7.
+                                            <br>
+                                            <br>PCASC se opone al imperialismo de EE.UU. y empresarial enlas Américas.
+                                            <br>
+                                            <br><b>Las empresas transnacionales y el gobierno de los EE.UU. imponen políticas que explotan y oprimen a las comunidades de todo el continente americano. Es nuestraresponsabilidad de luchar contra estas políticas desde dentro.</b>
+
+                                        </p>
+                                        <br>
+                                        <br>
+                                        <a href="https://twitter.com/pcasc"> <i class="fa fa-facebook-square" style="font-size: 50px; padding-right: 50px" aria-hidden="true"></i></a>
+                                        <a href="https://www.facebook.com/pcasc.solidaridad"><i class="fa fa-twitter"  style="font-size: 50px" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div id="div1">
+                        <br>
+
+
+
+                        <script>
+                            $(".English").click(function() {
+                                $(".block1").fadeToggle("slow");
                             });
-                            } fade(true); //fade elements on page-load
-                             });
-                            </script>
-                      <script> $(window).on("load",function() {
-                function fade(pageLoad) {
-                  var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-                var min = 1;
-                var max = 1;
-                var threshold = 1;
-                    
-});
-    </body>
-<footer>
+
+                            $(".Espanol").click(function() {
+                                $(".block2").fadeToggle("slow");
+                            });
+                            $(window).on("load", function() {
+                                function fade(pageLoad) {
+                                    var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+                                    var min = 1;
+                                    var max = 1;
+                                    var threshold = 0.01;
+                                    $(".fade").each(function() {
+                                        /* Check the location of each desired element */
+                                        /* If the element is completely within bounds of the window, fade it in */
+                                        if (objectBottom = windowBottom) { //object comes into view (scrolling down)
+                                            if ($(this).css("opacity") <= min + threshold || pageLoad) {
+                                                $(this).fadeTo(500, max);
+                                            }
+                                        } else { //object goes out of view (scrolling up)
+                                            if ($(this).css("opacity") >= max - threshold || pageLoad) {
+                                                $(this).fadeTo(1, min);
+                                            }
+                                        }
+                                    });
+                                }
+                                fade(true); //fade elements on page-load
+                            });
+                        </script>
+                        <script>
+                            $(window).on("load", function() {
+                                        function fade(pageLoad) {
+                                            var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+                                            var min = 1;
+                                            var max = 1;
+                                            var threshold = 1;
+
+                                        }); <
+                                    /body> <
+                                    footer >
  
 </html>
