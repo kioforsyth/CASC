@@ -1,5 +1,6 @@
 <html>
-     <head>
+
+<head>
     <title>Portland Central American Solidarity Committee</title>
 
     <!-- Latest compiled and minified CSS -->
@@ -14,6 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
@@ -152,6 +154,7 @@
 
         border-image: url(border.png) 30 round;
         }
+
     </style>
 </head>
 <header>
@@ -160,9 +163,15 @@
             <nav>
                 <img src="logo.png" height="30%">
                 <br>
-                 <a href="page2eng"><h1 class="underline">About us</h1></a>
-                <a href="get_involved_eng"><h1 class="underline">Get Involved</h1></a>
-                <a href="contact_eng"><h1 class="underline">Contact</h1></a>
+                <a href="page2espanol.html">
+                    <h1 class="underline">About us</h1>
+                </a>
+                <a href="get_involved_esp.html">
+                    <h1 class="underline">Get Involved</h1>
+                </a>
+                <a href="contact_esp.html">
+                    <h1 class="underline">Contact</h1>
+                </a>
             </nav>
         </div>
 </header>
@@ -178,81 +187,75 @@
     <div class="jumbotron">
         <h4>
 
+            <u>Contact Us</u>
             <br>
-            <u>Meetings</u>
+            <br> Portland Central America Solidarity Committee
+            <br> 2249 E Burnside St.
+            <br> Portland, OR 97214
             <br>
-            <br> PCASC meets @ 2249 E. Burnside on the 3rd Wednesday of every month, 7-9 pm. All are welcome, whether you’re returning to PCASC after a hiatus or are hoping to learn what we’re all about. Please contact us to add agenda items or to schedule to speak at an upcoming meeting:
-            <i>coreteam@pcasc.net</i> or call and leave a message: 503-236-7916
-            <br>
-        </h4>
-        <h4>
-            <u>Internships</u>
-            <br>
-            <br> Email coreteam@pcasc.net with all inquiries and to apply for an internship.
-            <br> All internships require the following:
-            <br>
-            <br> *4-6 hours per week
-            <br> *3--6 month commitment
-            <br> *Collaboration with PCASC staff
-            <br> *Passion for social justice
-            <br> *Excellent communication skills
-            </ul>
+            <br> Otherwise, see below.
             <br>
             <br>
-            <br> All internships are unpaid, but request for academic credit will be considered.
+            <u>To reach our Board</u>:
             <br>
+            <br> Email: coreteam@pcasc.net
             <br>
-            <u>Current Internship Opportunities</u>
-            <br> Grant Writing & Development Intern
+            <br> Phone: (503) 236-7916 -Please leave a message and someone will return your call!
+            <br>
+
         </h4>
 
+        <br>
         <div class="text-center">
+            <a href="https://twitter.com/pcasc"> <i class="fa fa-facebook-square" style="font-size: 50px; padding-right: 50px" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/pcasc.solidaridad"><i class="fa fa-twitter"  style="font-size: 50px" aria-hidden="true"></i></a>
             <br>
-            <br>
-            <i class="fa fa-facebook-square" style="font-size: 50px; padding-right: 50px" aria-hidden="true"></i>
-            <i class="fa fa-twitter" style="font-size: 50px" aria-hidden="true"></i>
-            <br>
-            <script>
-                $(".English").click(function() {
-                    $(".block1").fadeToggle("slow");
-                });
 
-                $(".Espanol").click(function() {
-                    $(".block2").fadeToggle("slow");
-                });
-                $(window).on("load", function() {
-                    function fade(pageLoad) {
-                        var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-                        var min = 1;
-                        var max = 1;
-                        var threshold = 0.01;
-                        $(".fade").each(function() {
-                            /* Check the location of each desired element */
-                            /* If the element is completely within bounds of the window, fade it in */
-                            if (objectBottom = windowBottom) { //object comes into view (scrolling down)
-                                if ($(this).css("opacity") <= min + threshold || pageLoad) {
-                                    $(this).fadeTo(500, max);
-                                }
-                            } else { //object goes out of view (scrolling up)
-                                if ($(this).css("opacity") >= max - threshold || pageLoad) {
-                                    $(this).fadeTo(1, min);
-                                }
+        </div>
+
+        <script>
+            $(".English").click(function() {
+                $(".block1").fadeToggle("slow");
+            });
+
+            $(".Espanol").click(function() {
+                $(".block2").fadeToggle("slow");
+            });
+            $(window).on("load", function() {
+                function fade(pageLoad) {
+                    var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+                    var min = 1;
+                    var max = 1;
+                    var threshold = 0.01;
+                    $(".fade").each(function() {
+                        /* Check the location of each desired element */
+                        /* If the element is completely within bounds of the window, fade it in */
+                        if (objectBottom = windowBottom) { //object comes into view (scrolling down)
+                            if ($(this).css("opacity") <= min + threshold || pageLoad) {
+                                $(this).fadeTo(500, max);
                             }
-                        });
-                    }
-                    fade(true); //fade elements on page-load
-                });
-            </script>
-            <script>
-                $(window).on("load", function() {
-                            function fade(pageLoad) {
-                                var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-                                var min = 1;
-                                var max = 1;
-                                var threshold = 1;
+                        } else { //object goes out of view (scrolling up)
+                            if ($(this).css("opacity") >= max - threshold || pageLoad) {
+                                $(this).fadeTo(1, min);
+                            }
+                        }
+                    });
+                }
+                fade(true); //fade elements on page-load
+            });
 
-                            }); <
-                        /body> <
-                        footer >
- 
-</html>
+        </script>
+        <script>
+            $(window).on("load", function() {
+                        function fade(pageLoad) {
+                            var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+                            var min = 1;
+                            var max = 1;
+                            var threshold = 1;
+
+                        }); <
+                    /body> <
+                    footer >
+
+                    <
+                    /html>
